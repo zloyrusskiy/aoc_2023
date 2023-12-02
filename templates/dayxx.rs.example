@@ -1,0 +1,26 @@
+use std::io;
+
+fn main() {
+    let input = get_input();
+
+    let part1_res = calc_part1(&input);
+    println!("part1 res {part1_res:?}");
+
+    let part2_res = calc_part2(&input);
+    println!("part1 res {part2_res:?}");
+}
+
+fn get_input() -> Vec<String> {
+    io::stdin()
+        .lines()
+        .map(|line| line.expect("Unable to read line"))
+        .collect()
+}
+
+fn calc_part1(input: &Vec<String>) -> u32 {
+    todo!()
+}
+
+fn calc_part2(input: &Vec<String>) -> u32 {
+    todo!()
+}
